@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.footer{
+    padding: 30px 40px;
+    width: 100%;
+    background:rgb(246, 228, 228);
+}
+.footer .container{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .container .about{
+    max-width: 30%;
+}
+.footer .container .about .logo{
+    margin-left: 15px;
+}
+.footer .container .about .detail p{
+    margin-top: 20px;
+    font-size: 16px;
+    color: black;
+    margin-left: 15px;
+}
+.footer .container .about .detail .icon{
+    margin-top: 20px;
+    display: flex;
+}
+.footer .container .about .detail .icon li{
+    margin-left: 15px;
+    list-style: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: 0.5s;
+    border-radius: 8px;
+}
+.footer .container .about .detail .icon li:hover{
+    background: rgb(92, 92, 249);
+    color: white;
+}
+.footer .container .account{
+    margin-right: 90px;
+    margin-top: 45px;
+}
+.footer .container .account h3{
+    font-size: 32px;
+    color: black;
+}
+.footer .container .account ul{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.footer .container .account ul li{
+    margin-top: 5px;
+    color: black;
+    font-size: 14px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.footer .container .account ul li:hover{
+     color: rgb(99, 99, 242);
+}
+.footer .container .page{
+    margin-right: 90px;
+    margin-top: 45px;
+}
+.footer .container .page h3{
+    font-size: 32px;
+    color: black;
+}
+.footer .container .page ul{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.footer .container .page ul li{
+    margin-top: 5px;
+    color: black;
+    font-size: 14px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.footer .container .page ul li:hover{
+     color: rgb(99, 99, 242);
+}

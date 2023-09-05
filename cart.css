@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.cart_container{
+    padding: 40px 50px;
+    width: 100%;
+    background: white;
+    border-bottom:1px solid black ;
+}
+.cart_container .empty_cart{
+    margin-top: 30px;
+    margin-left: 37%;
+}
+.cart_container .empty_cart h2{
+    font-size: 32px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.cart_container .empty_cart .emptycartbtn{
+    margin-left: 55px;
+    text-decoration: none;
+    color: white;
+    padding: 13px 25px;
+    background: black;
+    border-radius: 10px;
+}
+.cart_container .contant{
+    max-width: 100%;
+    padding: 20px 30px ;
+}
+.cart_container .contant .cart_item{
+    padding: 20px 30px;
+    display: flex;
+    background: white;
+    border-radius: 5px;
+    margin-top:10px;
+    margin-left: 10px;
+    border: 1px solid rgb(208, 208, 208);
+}
+.cart_container .contant .cart_item .img_box{
+    padding: 10px 20px;
+    background:rgb(239, 238, 239);
+}
+.cart_container .contant .cart_item .img_box img{
+    width: 250px;
+    height: 250px;
+}
+.cart_container .contant .cart_item .detail{
+    margin-left: 60px;
+    display: flex;
+    margin-top: 10px;
+    padding: 20px 30px;
+}
+.cart_container .contant .cart_item .detail .info h4{
+    text-transform: uppercase;
+    font-size: 16px;
+    color:rgb(52, 174, 52);
+    font-weight: 100;
+    letter-spacing: 1.5px;
+}
+.cart_container .contant .cart_item .detail .info h3{
+    margin-top: 20px;
+    color: black;
+    font-size: 22px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.cart_container .contant .cart_item .detail .info p{
+    margin-top: 10px;
+    color: black;
+    letter-spacing: 1px;
+}
+.cart_container .contant .cart_item .detail .info .qty{
+    margin-top: 10px;
+    display: flex;
+}
+.cart_container .contant .cart_item .detail .info .qty .incqty{
+    padding: 10px 20px;
+    background: none;
+    outline: none;
+    border: none;
+    color: rgb(103, 103, 247);
+    font-size: 32px;
+    cursor: pointer;
+}
+.cart_container .contant .cart_item .detail .info .qty .decqty{
+    padding: 10px 20px;
+    background: none;
+    outline: none;
+    border: none;
+    color: rgb(103, 103, 247);
+    font-size: 32px;
+    cursor: pointer;
+}
+.cart_container .contant .cart_item .detail .info .qty input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 22px;
+    color: black;
+    width: 50px;
+    margin-left: 20px;
+}
+.cart_container .contant .cart_item .detail .info .subtotal{
+    color: black;
+    font-size: 22px;
+    margin-top: 10px; 
+}
+.cart_container .contant .cart_item .detail .close{
+    margin-left: 50px;
+}
+.cart_container .contant .cart_item .detail .close button{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 22px;
+    color: rgb(245, 62, 62);
+    cursor: pointer;
+}
+.cart_container .totalprice{
+    margin-top: 30px;
+    margin-left: 42%;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.cart_container .checkout{
+    margin-top: 30px;
+    margin-left: 45%;
+    padding: 20px 30px;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: black;
+    border-radius: 8px;
+}

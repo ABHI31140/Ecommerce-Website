@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;   
+}
+.container .logo img{
+    width: 170px;
+}
+.main_header{
+    padding: 10px 40px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+.main_header .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.main_header .container .search_box{
+    margin-right: 30px;
+    margin-top: 8px;
+}
+.main_header .container .search_box input{
+    outline: none;
+    padding: 10px 30px;
+    border: 3px solid rgb(146, 214, 44);
+    width: 300px;
+    color:black;
+}
+.main_header .container .search_box button{
+    border: 3px solid rgb(146, 214, 44);
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: rgb(146, 214, 44);
+    columns: white;
+}
+.main_header .container .icon{
+    display: flex;
+    margin-right: 50px;
+}
+
+.main_header .container .icon .account {
+    display: flex;
+    margin-right: 30px;
+}
+.main_header .container .icon .account .user_icon{
+    margin-right: 10px;
+    font-size: 22px;
+    color: black;
+    cursor: pointer;
+    margin-top: 13px;
+}
+.main_header .container .icon .account p{
+    margin-right: 5px;
+    margin-top: 14px;
+}
+.main_header .container .icon .second_icon{
+    display: flex;
+}
+.main_header .container .icon .second_icon .link{
+    margin-right: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 13px;
+    color:rgb(146, 214, 44) ;
+} 
+.header{
+    width: 100%;
+    padding: 20px 30px;
+    box-shadow: rgba(0,0,0,0.35)0px 5px 15px;
+}
+.header .container{
+    max-width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+.header .container .nav ul{
+    display: flex;
+}
+.header .container .nav ul li{
+    margin-left: 20px;
+    list-style: none;
+}
+.header .container .nav ul li .link{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+    font-size: 20px;
+}
+.header .container .nav ul li .link:hover{
+    color: rgb(114, 114, 245);
+}
+.header .container .auth{
+    margin-right: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.header .container .auth button{
+    margin-right: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.main_header .checkbtn{
+    float: right;
+    line-height: 110px;
+    font-size: 30px;
+    color: rgb(137, 204, 36);
+}
